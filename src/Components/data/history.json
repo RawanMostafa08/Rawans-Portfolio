@@ -1,0 +1,34 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "NGV",
+    "startDate": "Aug, 2023",
+    "endDate": "Sep, 2023",
+    "experiences": [
+      "Developed employee desktop application",
+      "Helped the hr department to digitalize their work"
+    ],
+    "imageSrc": "history/NGV.png"
+  },
+  {
+    "role": "Cyber Security Intern",
+    "organisation": "Cairo University",
+    "startDate": "Jul, 2023",
+    "endDate": "Sep, 2023",
+    "experiences": [
+      "Learnt pentesting tools",
+      "Implemented an Antivirus application"
+    ],
+    "imageSrc": "history/cyber.png"
+  },
+  {
+    "role": "Technical writing Intern",
+    "organisation": "WriteIT",
+    "startDate": "Jul, 2022",
+    "endDate": "Sep, 2022",
+    "experiences": [
+      "Worked on GAHC project for enhancing the health process in Egypt with WHO"
+    ],
+    "imageSrc": "history/writeit.png"
+  }
+]

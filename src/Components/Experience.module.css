@@ -1,0 +1,118 @@
+@import "../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.skillImgcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--color-secondary);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  align-items: center;
+}
+.skillImgcont img {
+  width: 75px;
+}
+.skill p {
+  font-family: var(--font-robot);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 40px;
+}
+.histItm img {
+  width: 49.02px;
+  height: 50px;
+}
+.histItm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: var(--color-secondary);
+  background: linear-gradient(
+    90deg,
+    var(--color-secondary) 0%,
+    rgba(25, 55, 109, 0) 100%
+  );
+  border-radius: 10px;
+  padding: 24px;
+}
+.histItmDetails h3 {
+  font-family: var(--font-robot);
+  font-size: 25px;
+  font-weight: 500;
+}
+.histItmDetails p {
+  font-family: var(--font-robot);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 70%;
+}
+.histItmDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 20px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+  .skills{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .history{
+    width: 100%;
+    gap: 9px;
+  }
+}

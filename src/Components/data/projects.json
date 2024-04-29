@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Detecta Antivirus",
+    "imageSrc": "projects/detecta.png",
+    "description": "A pattern-based anti-PDF malware system identifies and neutralizes malicious PDF files by recognizing predefined patterns or signatures associated with known threats.",
+    "skills": ["Html", "Css", "Javascript", "electron.js"],
+    "source": "https://github.com/RawanMostafa08/Detecta"
+  },
+  {
+    "title": "Employee pro",
+    "imageSrc": "projects/employee.png",
+    "description": "A Python-based employee management desktop application. It offers user authentication, comprehensive employee information management along with another functionalities",
+    "skills": ["Python", "Html", "Css", "Javascript", "Eel"],
+    "source": "https://github.com/RawanMostafa08/EmployeePro"
+  },
+  {
+    "title": "Search Engine",
+    "imageSrc": "projects/search engine.png",
+    "description": "The search engine is designed to provide lightning-fast search results across a very large database of websites, showing in a very user-friendly UI.",
+    "skills": ["Java", "React", "Node.js", "MongoDB"],
+    "source": "https://github.com/RawanMostafa08/Search-engine"
+  },
+  {
+    "title": "Training Center Web Application",
+    "imageSrc": "projects/training center.png",
+    "description": "Under the supervision of Egyptian Electricity Transmission Co., the web application was implemented to help the center admins, the instructors, the students to communicate together on one platform.",
+    "skills": ["React", "Node.js", "SQL server", "Express"],
+    "source": "https://github.com/RawanMostafa08"
+  },
+  {
+    "title": "Courses Academy Web Application",
+    "imageSrc": "projects/beta.png",
+    "description": "Under the supervision of Beta Academy, the web application was implemented to show the services that they offer. Also help students to enroll in online and offline courses.",
+    "skills": ["React", "Node.js", "MongoDB", "Express"],
+    "source": "https://github.com/RawanMostafa08/Courses-Academy-Website"
+  }
+]
